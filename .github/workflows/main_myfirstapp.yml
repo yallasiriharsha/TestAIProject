@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'MyFirstAPP'
           slot-name: 'Production'
-          package: .
+          package: ./TestProject
           
