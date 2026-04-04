@@ -8,7 +8,7 @@ dotenv.config();
 const seedDatabase = async () => {
   try {
     // Connect to MongoDB
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/student-management', {
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://yallasiriharsha:Harsha@123@studentmanagement.utlyoxq.mongodb.net/StudentManagement', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
